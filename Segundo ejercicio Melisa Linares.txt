@@ -1,0 +1,29 @@
+﻿<html>
+<head>
+<title> Alertas en Javascript</title>
+<script>
+	funtion PromptDemo() {
+		//El usuario ingresa una pregunta
+		var deporte = prompt("¿que deporte te gusta?", "");
+		//verificamos si el usuario ingreso un valor
+		if (deporte !=null){
+		alert(" Tu deporte favorito es " + deporte);
+}
+//verificamos si el usuario no ingreso un valor
+else {
+alert("No has ingresado ningun deporte");
+
+
+	}
+
+}
+
+</script>
+</head>
+<!-- Esto es una pagina web no completa para escribir javascript -->
+<body>
+
+<input type="button onclick="PromptDemo();" value="verificar"/>
+
+</body>
+</html>
